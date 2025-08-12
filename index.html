@@ -46,6 +46,18 @@
             <h2 class="text-center text-primary">Login Form</h2>
             <form class="border p-4 shadow-sm bg-light">
                 <div class="mb-3">
+                    <label for="firstName" class="form-label">First Name</label>
+                    <input type="text" class="form-control is-invalid" id="firstName" placeholder="Enter your first name">
+                    <div class="invalid-feedback">
+                        Please provide a valid first name.
+                    </div>
+                    <label for="lastName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control is-invalid" id="lastName" placeholder="Enter your last name">
+                    <div class="invalid-feedback">
+                        Please provide a valid last name.
+                    </div>
+                </div>
+                <div class="mb-3">
                     <label for="email" class="form-label">Email address</label>
                     <input type="email" class="form-control is-invalid" id="email" placeholder="Enter your email">
                     <div class="invalid-feedback">
@@ -59,7 +71,7 @@
                         Please provide a valid password.
                     </div>
                 </div>
-                <button type="submit" class="btn btn-primary w-100">Login</button>
+                <button type="submit" class="btn btn-success w-100">Login</button>
             </form>
         </div>
 
