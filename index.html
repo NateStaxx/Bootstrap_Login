@@ -26,16 +26,15 @@
     </nav>
     <main>
         <!-- Responsive images-->
-        <div class="container-fluid p-0">
-            <!-- Main Responsive Image -->
-            <img src="./assets/stadium_stands.jpg" 
+        <div class="container-fluid p-0 position-relative" style="min-height: 600px;">
+            <img src="./assets/stadium_stands.jpg"
                 class="img-fluid w-100" 
                 alt="stadium stands"
                 style="max-height: 600px; object-fit: cover;">
-        </div>
-        <div class="position-absolute top-50 start-50 translate-middle d-flex gap-3">
-            <button class="btn btn-primary ">View Events</button>
-            <button class="btn btn-secondary d-none d-md-block">Contact Us</button>
+            <div class="position-absolute top-50 start-50 translate-middle d-flex gap-3" style="top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                <button class="btn btn-primary ">View Events</button>
+                <button class="btn btn-secondary d-none d-md-block">Contact Us</button>
+            </div>
         </div>
         <div class="container text-center my-4">
             <!-- Circular Image -->
