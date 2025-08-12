@@ -49,17 +49,16 @@
         <div class="container mt-5">
             <h2 class="text-center text-primary">Registration Form</h2>
             <form class="border p-4 shadow-sm bg-light">
-                <div class="mb-3">
+                <div class="row mb-3">
+                    <div class="col-md-6">
                     <label for="firstName" class="form-label">First Name</label>
                     <input type="text" required class="form-control is-invalid" id="firstName" placeholder="Enter your first name">
-                    <div class="invalid-feedback">
-                        Please provide a valid first name.
-                    </div>
+                    <div class="invalid-feedback">Please provide a valid first name.</div>
+                </div>
+                <div class="col-md-6">
                     <label for="lastName" class="form-label">Last Name</label>
                     <input type="text" required class="form-control is-invalid" id="lastName" placeholder="Enter your last name">
-                    <div class="invalid-feedback">
-                        Please provide a valid last name.
-                    </div>
+                    <div class="invalid-feedback">Please provide a valid last name.</div>
                 </div>
                 <div class="mb-3">
                     <label for="email" class="form-label">Email address</label>
@@ -103,7 +102,7 @@
                         <td>1</td>
                         <td>Jane Doe</td>
                         <td>jane.doe@example.com</td>
-                        <td>Admin</td>
+                        <td>user</td>
                     </tr>
                     <tr>
                         <td>2</td>
